@@ -10,5 +10,5 @@
 	$alto = 400;
 	$m = new Modelo($_GET['h'], $_GET['m'], $_GET['s'], $ancho, $alto);
 	$c = new Controlador();
-	$c->exhibir($m, $v); 
+	$c->exhibir($m, $v);  
 ?>
