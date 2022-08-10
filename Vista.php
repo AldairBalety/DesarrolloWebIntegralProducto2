@@ -23,7 +23,7 @@
 			imagestring($this->img, 15, 55, 193, "9", $this->negro);	
 			imagestring($this->img, 15, 75, 120, "10", $this->negro);	
 			imagestring($this->img, 15, 125, 65, "11", $this->negro);	
-			imagestring($this->img, 15, 190, 50, "12", $this->negro);
+			imagestring($this->img, 15, 190, 50, "12", $this->negro);  
 			imagefilledellipse($this->img, $modelo->centrox, $modelo->centroy, $modelo->ancho-390, $modelo->alto-390, $this->negro);		
 			for($i=0; $i<60; $i++){
 				if($i%5==0){
