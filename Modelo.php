@@ -31,7 +31,7 @@
 				$this->centroy+($this->radio-10)*sin($ang_rad_ini) 
 					);
 				$ang_rad_ini += $ang_rad_div; 
-			}			
+			}			 
 		}
 	}
 ?>
